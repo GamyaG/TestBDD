@@ -1,0 +1,28 @@
+{
+  "username": "su",
+  "password": "gw",
+  "accountNumber": "4991420848",
+  "Organization": "A",
+  "producerCode": "Test Code",
+  "Offerings": "Basic Program",
+  "DOB": "01-01-1983",
+  "Address": "4211 Grey Fox Farm Road",
+  "City": "Houston",
+  "State": "Texas",
+  "Zipcode": "77002",
+  "AddressType": "Billing",
+  "License": "TX-124487",
+  "LicenseState": "Alaska",
+  "YearLicensed": "2007",
+  "Accident_PolicyLevel": "0",
+  "Accident_Account_Level": "0",
+  "Violation_PolicyLevel": "0",
+  "Violation_Account_Level": "0",
+  "VehicleType": "Passenger/Light Truck",
+  "VIN": "JTHFF2C24A2505299",
+  "LicenceState1": "Alaska",
+  "AddressLine": "289 Grant view Driver",
+  "City_Vehicle": "New berlin",
+  "CostNew": "3242"
+
+}

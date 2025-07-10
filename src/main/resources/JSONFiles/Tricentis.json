@@ -1,0 +1,55 @@
+{
+  "VehicleDetails": {
+    "Make": "Honda",
+    "Make1": "Mercedes Benz",
+    "Make2": "Ford",
+    "Make3": "Mazda",
+    "Make4": "Porsche",
+    "EnginePerformance": "700",
+    "DateOfManufacture": "11/12/2024",
+    "NumberOfSeats": "2",
+    "FuelType": "Petrol",
+    "ListPrice": "8000",
+    "LicensePlateNumber": "TX-1234",
+    "AnnualMileage": "5000",
+    "Model": "Scooter",
+    "CylinderCapacity": "200"
+  },
+  "InsuredData": {
+    "Firstname": "ghtrh",
+    "Lastname": "fghjk",
+    "BirthDate": "11/06/2006",
+    "StreetAddress": "123 main street",
+    "Country": "United States",
+    "Zipcode": "75201",
+    "City": "Texas",
+    "Occupation": "Employee"
+  },
+  "ProductData": {
+    "StartDate": "12/02/2025",
+    "InsuranceSum": " 5.000.000,00",
+    "MeritRating": "Bonus 4",
+    "DamageInsurance": "Partial Coverage",
+    "CourtesyCar": " Yes"
+
+  },
+  "Quote": {
+    "Email": "email@gmail.com",
+    "Phone": "06321996848",
+    "Username": "rghs",
+    "Password": "Email@1234",
+    "SuccessMessage": "Sending e-mail success!"
+  },
+  "VehicleDetailsForTruckProduct": {
+    "Make": "Audi",
+    "EnginePerformance": "700",
+    "DateOfManufacture": "11/12/2024",
+    "NumberOfSeats": "7",
+    "FuelType": "Petrol",
+    "Payload": "600",
+    "TotalWeight": "6000",
+    "ListPrice": "8000",
+    "LicensePlateNumber": "TX-1234",
+    "AnnualMileage": "5000"
+  }
+  }
