@@ -46,7 +46,7 @@ public class DriverFactory {
         switch (browserType) {
             case "chrome" -> {
                 ChromeOptions chromeOptions = new ChromeOptions();
-                chromeOptions.addArguments("--headless=new"); // 👈 safer modern headless mode
+                chromeOptions.addArguments("--headless"); // 👈 safer modern headless mode
                 chromeOptions.addArguments("--no-sandbox");
                 chromeOptions.addArguments("--disable-dev-shm-usage");
                 chromeOptions.addArguments("--disable-extensions");
