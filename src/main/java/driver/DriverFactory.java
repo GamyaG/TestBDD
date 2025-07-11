@@ -51,7 +51,7 @@ public class DriverFactory {
                 chromeOptions.addArguments("--disable-gpu");
                 chromeOptions.addArguments("--no-sandbox");
                 chromeOptions.addArguments("--disable-dev-shm-usage");
-                chromeOptions.addArguments("--window-size=1920,1080");
+
 
                 // 🔧 Set a unique user-data-dir to avoid session conflict
                 chromeOptions.addArguments("--user-data-dir=/tmp/chrome-profile-" + System.currentTimeMillis());
@@ -61,7 +61,7 @@ public class DriverFactory {
                 chromeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
                 driver = new ChromeDriver(chromeOptions);
                 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-                driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(80));
+                driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(120));
                 driver.manage().window().maximize();
             }
             case "remote-chrome" -> {
