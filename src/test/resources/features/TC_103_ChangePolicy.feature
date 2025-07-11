@@ -1,6 +1,7 @@
 Feature: Policy Modification Process
   @TC_103_ChangePolicy
   @designated
+  @pcGCP
   @smoke
   Scenario: TC_103_ChangePolicy
     Given  User launches the URL of GuideWire Policy Center cloud

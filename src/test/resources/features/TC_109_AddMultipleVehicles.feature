@@ -1,5 +1,6 @@
 Feature: Adding Multiple Vehicles to a Policy
   @TC_109_AddMultipleVehicles
+  @pcGCP
   @smoke
   Scenario: TC_109_AddMultipleVehicles
     Given  User launches the URL of GuideWire Policy Center cloud

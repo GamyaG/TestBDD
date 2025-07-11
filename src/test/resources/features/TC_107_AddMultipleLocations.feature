@@ -1,5 +1,6 @@
 Feature:Binding Go Commercial Insurance Policies
   @TC_107_AddMultipleLocations
+  @pcGCP
   @smoke
   Scenario:TC_107_AddMultipleLocations
     Given  User launches the URL of GuideWire Policy Center cloud

@@ -1,5 +1,6 @@
 Feature:Policy Renewal for Home Owners
   @TC_121_RenewalPolicy_HOP
+    @hop
   Scenario: TC_121_RenewalPolicy_HOP
     Given  User launches the URL of GuideWire Policy Center cloud
     When  User enters valid credentials and logs into Policy Center cloud

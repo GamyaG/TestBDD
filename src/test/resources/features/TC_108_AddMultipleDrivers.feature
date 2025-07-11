@@ -1,5 +1,6 @@
 Feature: Adding Multiple Drivers to a Policy
   @TC_108_AddMultipleDrivers
+  @pcGCP
   @smoke
   Scenario: TC_108_AddMultipleDrivers
     Given  User launches the URL of GuideWire Policy Center cloud

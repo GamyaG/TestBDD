@@ -1,6 +1,7 @@
 Feature: Policy Reinstatement Process
   @TC_104_ReinstatePolicy
   @designated
+  @pcGCP
   @smoke
   Scenario: TC_104_ReinstatePolicy
     Given User launches the URL of GuideWire Policy Center cloud

@@ -1,6 +1,7 @@
 Feature: Policy Rewrite Process
   @TC_105_RewritePolicy
   @designated
+  @pcGCP
   @smoke
   Scenario: TC_105_RewritePolicy
     Given  User launches the URL of GuideWire Policy Center cloud

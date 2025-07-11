@@ -1,5 +1,6 @@
 Feature: Homeowners Product Policy Submission
   @TC_111_VerifyErrorMessage
+  @pcGCP
   Scenario: TC_111_VerifyErrorMessage
     Given User launches the URL of GuideWire Policy Center cloud
     When User enters valid credentials and logs into Policy Center cloud

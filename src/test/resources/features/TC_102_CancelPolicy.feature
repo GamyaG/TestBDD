@@ -1,6 +1,7 @@
 Feature:  Policy Cancellation Process
   @TC_102_CancelPolicy
     @designated
+  @pcGCP
   @smoke
   Scenario: TC_102_CancelPolicy
     Given User launches the URL of GuideWire Policy Center cloud

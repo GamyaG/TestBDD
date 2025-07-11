@@ -1,5 +1,6 @@
 Feature:Policy Renewal for Small Business
   @TC_117_RenewalPolicy_SBP
+  @sbp
   Scenario: TC_117_RenewalPolicy_SBP
     Given  User launches the URL of GuideWire Policy Center cloud
     When  User enters valid credentials and logs into Policy Center cloud

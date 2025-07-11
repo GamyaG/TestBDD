@@ -1,5 +1,6 @@
 Feature: Return Quote Process
   @TC_106_ReturnQuote
+  @pcGCP
   @smoke
   Scenario: TC_106_ReturnQuote
     Given User launches the URL of GuideWire Policy Center cloud

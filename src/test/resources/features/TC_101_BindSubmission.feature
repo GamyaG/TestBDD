@@ -1,6 +1,7 @@
 Feature:Binding Go Commercial Insurance Policies
   @TC_101_bind_submission_GCP
   @designated
+    @pcGCP
     @smoke
   Scenario: TC_101_bind_submission_GCP
     Given  User launches the URL of GuideWire Policy Center cloud

@@ -1,6 +1,6 @@
 Feature:Issuing small business policy
   @TC_116_Issue_Submission_SBP
-    @SBP
+  @sbp
   @designated
   @smoke
   Scenario: TC_116_Issue_Submission_SBP
