@@ -47,6 +47,14 @@ public class DriverFactory {
             case "chrome" -> {
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("--remote-allow-origins=*");
+                chromeOptions.addArguments("--headless=new"); // Recommended in CI/CD
+                chromeOptions.addArguments("--disable-gpu");
+                chromeOptions.addArguments("--no-sandbox");
+                chromeOptions.addArguments("--disable-dev-shm-usage");
+                chromeOptions.addArguments("--window-size=1920,1080");
+
+                // 🔧 Set a unique user-data-dir to avoid session conflict
+                chromeOptions.addArguments("--user-data-dir=/tmp/chrome-profile-" + System.currentTimeMillis());
                 // Setup WebDriverManager with specified Chrome version
 
                 WebDriverManager.chromedriver().setup();
