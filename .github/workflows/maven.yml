@@ -24,8 +24,12 @@ jobs:
       - name: Build and Run Tests with Maven
         run: mvn clean test
 
-      - name: Upload ExtentReport
+      - name: Debug – List files to confirm report presence
+        run: ls -R
+
+      - name: Upload Extent Reports
         uses: actions/upload-artifact@v4
         with:
-          name: extent-report
+          name: extent-reports
           path: reports/
+
