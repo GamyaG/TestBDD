@@ -27,9 +27,13 @@ jobs:
       - name: Debug – List files to confirm report presence
         run: ls -R
 
-      - name: Upload Extent Reports
+      - name: Copy screenshots into reports folder
+        run: |
+          mkdir -p reports/screenshots
+          cp -r screenshots/* reports/screenshots/
+
+      - name: Upload Extent Reports (with screenshots)
         uses: actions/upload-artifact@v4
         with:
           name: extent-reports
           path: reports/
-
