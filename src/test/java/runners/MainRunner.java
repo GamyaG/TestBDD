@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-@CucumberOptions(tags = "@TC_101_bind_submission_GCP",
+@CucumberOptions(tags = "@SearchFunctionality2",
         plugin = {"pretty", "html:target/cucumber/report.html",
                 "json:target/cucumber/report.json",
                 "junit:target/cucumber-results.xml",
