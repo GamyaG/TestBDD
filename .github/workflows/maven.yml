@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted  # 👈 This ensures it uses your self-hosted runner
 
     steps:
       - name: Checkout Repository
@@ -25,12 +25,12 @@ jobs:
         run: mvn clean test
 
       - name: Debug – List files to confirm report presence
-        run: ls -R
+        run: dir /s  # 👈 changed from `ls -R` to Windows equivalent
 
       - name: Copy screenshots into reports folder
         run: |
-          mkdir -p reports/screenshots
-          cp -r screenshots/* reports/screenshots/
+          mkdir reports\screenshots
+          xcopy /E /I screenshots reports\screenshots
 
       - name: Upload Extent Reports (with screenshots)
         uses: actions/upload-artifact@v4
